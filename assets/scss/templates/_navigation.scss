@@ -2,11 +2,11 @@
   padding: 40px 130px;
   transition: .3s ease;
   background-color: rgba( 255, 255, 255, 0);
-  color: #000;
+  // color: #000;
   &.nav-bg {
     background-color: rgba( 255, 255, 255, 0);
     padding: 15px 100px;
-    color: #000;
+    // color: #000;
     @include desktop {
       padding: 15px 20px;
     }
