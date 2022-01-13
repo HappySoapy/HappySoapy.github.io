@@ -1,6 +1,9 @@
 .hero-area {
   padding: 300px 0 200px;
   position: relative;
+  background-image: url(/assets/images/backgrounds/ocean-2203720_1920.jpg);
+  background-size: cover;
+  height: 100vh;
   @include tablet {
     padding: 250px 0 150px;
     overflow: hidden;
@@ -8,7 +11,21 @@
   h1{
     position: relative;
     z-index: 2;
+    font-weight: bold;
   }
+}
+
+.img-cover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3); 
+
+  z-index:1;
+}
+
+.font-tertiary{
+  text-align: right;
 }
 
 .layer {
