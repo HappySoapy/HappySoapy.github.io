@@ -13,7 +13,7 @@
   }
   @include desktop {
     padding: 20px;
-    background: $primary-color;
+    background: rgba( 255, 255, 255, 0);
   }
 }
 
@@ -31,5 +31,6 @@
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: $white;
+  color: $black;
+  font-weight: bold;
 }
