@@ -94,20 +94,24 @@ work-process:
 
 skills-title: Skills
 skills:
-- {name: Python, color: '#fdb157', value: '88%'}
-- {name: SQL, color: '#9473e6', value: '62%'}
-- {name: NLP, color: '#bdecf6', value: '60%'}
-- {name: ML, color: '#ffbcaa', value: '70%'}
+- {name: Python, color: '#f0358f', value: '88%'}
+- {name: SQL, color: '#f7c139', value: '62%'}
+- {name: ML, color: '#39c1f7', value: '70%'}
+- {name: DL, color: '#3c39f7', value: '50%'}
+- {name: R, color: '#edf739', value: '40%'}
+- {name: HTML, color: '#39f77f', value: '45%'}
+- {name: NLP, color: '#b839f7', value: '45%'}
 
 
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
+experience-title: Activities
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: 특허 출원 중, icon: 'icon-3.png', date: '2020.12.31 - Present', organization: '10-2020-0188682(DSA 첩근코드 3740)'}
+- {name: 2020 Data Youth Campus Mento, icon: 'icon-1.png', date: '2020.07 - 2020.09', organization: 'KData'}
+
+
 
 
 #-------------------------------
@@ -115,11 +119,14 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
-
+- {name: SQL Data Analysis Reports & Dash Board Develpment, date: '2021.06', organization: 'Comento'}
+- {name: Data Analysis with Python Certificate(95.66%), date: '2021.05', organization: 'Coursera(IBM)'}
+- {name: Applied Plotting Certificate(93.33%), Charting & Data Representation in Python Certificate(93.33%), date: '2021.05', organization: 'Coursera(Michigan Univ.)'}
+- {name: Introduction to Data Science in Python Certificate(94%), date: '2021.05', organization: 'Coursera(Michigan Univ.)'}
+- {name: Deep Learning for Business Certificate(90.28%), date: '2021.04', organization: 'Coursera(Yonsei Univ.)'}
+- {name: Bachelors in Mathematics, date: '2020.08', organization: 'Changwon University'}
+- {name: Bachelors in Statistics, date: '2020.08', organization: 'Changwon University'}
+- {name: 2019 Data Youth Campus Certificate, date: '2019.09', organization: 'KData'}
 
 # #-------------------------------
 # # Services Section
