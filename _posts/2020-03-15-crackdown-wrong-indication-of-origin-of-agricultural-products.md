@@ -6,6 +6,19 @@ image: /assets/images/blog/vegetables.jpg
 author: yelim
 ---
 
+<p style="font-size:15px">Tableau Dashboard Page</p>
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+
+
+
+
 <p>&nbsp;</p>
 <div class="post_head" style="margin-left: 20px; line-height: 1.5;"><span style="font-size: 36px; color: #2c82c9;"><strong>Introduce</strong></span></div>
 <section class="post_info">
