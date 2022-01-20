@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 화성시 최적 시내버스 노선 제시
-date: 2020-07-14
+date: 2021-07-14
 image: /assets/images/blog/bus.png
 author: yelim
 ---
