@@ -6,31 +6,51 @@ image: /assets/images/blog/vegetables.jpg
 author: yelim
 ---
 
-<p style="font-size:15px">Tableau Dashboard Page</p>
+
 <p>&nbsp;</p>
-
-
-
-
-
-
-
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="font-size:20pt; text-align:center; font-weight:bold">[Tableau Dashboard Page]</p>
+<div class='tableauPlaceholder' id='viz1642704105594' style='position: relative'>
+    <object class='tableauViz'  style='display:visible;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+        <param name='embed_code_version' value='3' /> 
+        <param name='path' value='views&#47;CrackdownonWrongIndicationofOriginofAgriculturalProducts&#47;1?:language=ko-KR&amp;:embed=true&amp;publish=yes' /> 
+        <param name='toolbar' value='yes' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='ko-KR' />
+        <param name='filter' value='publish=yes' />
+    </object>
+</div>                
+<script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1642704105594');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+        if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='500px';vizElement.style.maxWidth='1110px';
+        vizElement.style.width='100%';vizElement.style.minHeight='977px';vizElement.style.maxHeight='1177px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+        else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+        else { vizElement.style.width='100%';vizElement.style.height='2677px';}                     
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
 
 
 <p>&nbsp;</p>
 <div class="post_head" style="margin-left: 20px; line-height: 1.5;"><span style="font-size: 36px; color: #2c82c9;"><strong>Introduce</strong></span></div>
 <section class="post_info">
-<p style="margin-left: 20px; padding-left: 40px;"><strong><span style="font-size: 15pt;">Period of Project</span></strong><span style="font-size: 20px;">&nbsp;: 2020.03 - 2020.11</span></p>
-<p style="margin-left: 20px; line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Subject</strong> : 원산지 표시 단속에서 단속될 확률이 높은 업체를 추천</span></p>
-<p style="margin-left: 20px; line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Role</strong> : PM</span></p>
-<p style="margin-left: 20px; line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>ML</strong> : Random Forest, Ada Boost, XG Boost, Light GBM</span></p>
-<p style="margin-left: 20px; line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>DL</strong> : CNN, MLP, CNN_LSTM</span></p>
-<p style="margin-left: 20px; line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Tools</strong> : QGIS, Python</span></p>
-<p style="margin-left: 20px; line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Data :&nbsp;</strong>20 columns with 200,000 lines from 국립 농산물 품질 관리원</span></p>
-<p style="margin-left: 40px; line-height: 1; padding-left: 40px;">&nbsp;</p>
-<p style="margin-left: 60px; line-height: 1;">&nbsp;</p>
+<p style="padding-left: 40px;"><strong><span style="font-size: 15pt;">Period of Project</span></strong><span style="font-size: 20px;">&nbsp;: 2020.03 - 2020.11</span></p>
+<p style="line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Subject</strong> : 원산지 표시 단속에서 단속될 확률이 높은 업체를 추천</span></p>
+<p style="line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Role</strong> : PM</span></p>
+<p style="line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>ML</strong> : Random Forest, Ada Boost, XG Boost, Light GBM</span></p>
+<p style="line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>DL</strong> : CNN, MLP, CNN_LSTM</span></p>
+<p style="line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Tools</strong> : QGIS, Python</span></p>
+<p style="line-height: 1; padding-left: 40px;"><span style="font-size: 15pt;"><strong>Data :&nbsp;</strong>20 columns with 200,000 lines from 국립 농산물 품질 관리원</span></p>
+<p style="line-height: 1; padding-left: 40px;">&nbsp;</p>
+<p style="line-height: 1;">&nbsp;</p>
 </section>
 <p>&nbsp;</p>
 <section>
