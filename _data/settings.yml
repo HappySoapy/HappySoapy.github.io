@@ -11,9 +11,9 @@ phone: +82 10 5061 5637
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-- {name: About, link: '/about'}
-- {name: Projects, link: '/blog'}
-# - {name: Portfolio, link: '/portfolio'}
+# - {name: About, link: '/about'}
+- {name: Team Projects, link: '/blog'}
+- {name: Personal Projects, link: '/blog'}
 
 
 #-------------------------------
