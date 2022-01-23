@@ -40,4 +40,4 @@ author: yelim
 <p style="line-height: 1.5;">&nbsp;</p>
 <p>&nbsp;</p>
 <div class="post_head" style="margin-left: 20px; line-height: 1.5;"><span style="font-size: 36px; color: #2c82c9;"><strong>Codes</strong></span></div>
-<iframe src='https://nbviewer.org/github/HappySoapy/happysoapy.github.io/blob/main/_posts/hwasung_bus_line.ipynb' width='100%' height='1200px'>
+<iframe src='https://nbviewer.org/github/HappySoapy/happysoapy.github.io/blob/main/_posts/post1/hwasung_bus_line.ipynb' width='100%' height='1200px'>
