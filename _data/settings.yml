@@ -12,8 +12,8 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 
 menu:
 # - {name: About, link: '/about'}
-- {name: Team Projects, link: '/blog'}
-- {name: Personal Projects, link: '/portfolio'}
+- {name: Projects, link: '/blog'}
+# - {name: Pezsonal Projects, link: '/portfolio'}
 
 
 #-------------------------------
@@ -160,93 +160,93 @@ education:
 # Portfolio Home Section
 ##### 페이지를 넣으려면 아래의 url과 같은 방법으로 입력해야 한다.
 ##### 2022/01/20/Ohouse-word-cloud
-portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "2022/01/20/Ohouse-word-cloud"
+# portfolio-home-items:
+#   - image : "assets/images/portfolio/item-1.png"
+#     url: "2022/01/20/Ohouse-word-cloud"
     
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-2.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-3.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-4.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-5.png"
+#     url: "#"
 
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-1.png"
+#     url: "#"
     
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+#   - image : "assets/images/portfolio/item-2.png"
+#     url: "#"
   
 
 # Portfolio Page
-portfolio-label:
-- {
-    title : "UI/UX Design",
-    type : "design"
-  }
-- {
-    title : "BRANDING",
-    type : "branding"
-  }
-- {
-    title : "ILLUSTRATION",
-    type : "illustration"
-  }
+# portfolio-label:
+# - {
+#     title : "UI/UX Design",
+#     type : "design"
+#   }
+# - {
+#     title : "BRANDING",
+#     type : "branding"
+#   }
+# - {
+#     title : "ILLUSTRATION",
+#     type : "illustration"
+#   }
 
-portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "2022/01/20/Ohouse-word-cloud"
-    portfolio-type:
-     - type: "design"
-     - type: "illustration"
+# portfolio-items:
+#   - image : "assets/images/portfolio/item-1.png"
+#     url: "2022/01/20/Ohouse-word-cloud"
+#     portfolio-type:
+#      - type: "design"
+#      - type: "illustration"
       
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-2.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image : "assets/images/portfolio/item-3.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
       
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-6.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image : "assets/images/portfolio/item-8.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
       
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
+#   - image : "assets/images/portfolio/item-5.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
       
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-1.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
+#   - image : "assets/images/portfolio/item-3.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "illustration"
+#       - type: "branding"
       
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image : "assets/images/portfolio/item-7.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
 
 
 # #-------------------------------
