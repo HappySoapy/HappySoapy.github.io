@@ -99,9 +99,9 @@ skills:
 - {name: SQL, color: '#f7c139', value: '62%'}
 - {name: ML, color: '#39c1f7', value: '70%'}
 - {name: DL, color: '#3c39f7', value: '50%'}
-- {name: R, color: '#edf739', value: '40%'}
-- {name: HTML, color: '#39f77f', value: '45%'}
-- {name: NLP, color: '#b839f7', value: '45%'}
+# - {name: R, color: '#edf739', value: '40%'}
+# - {name: HTML, color: '#39f77f', value: '45%'}
+# - {name: NLP, color: '#b839f7', value: '45%'}
 
 
 #-------------------------------

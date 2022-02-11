@@ -6,7 +6,15 @@ image: /assets/images/blog/bus.png
 author: yelim
 ---
 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class = "heroku dashboard" style = 'text-align:center'>
+    <p style="font-size:20pt; font-weight:bold">[Heroku live update Dash Board(plotly)]</p>
+    <a style="font-weight:bold" href="https://hwasungbusline.herokuapp.com/"> https://hwasungbusline.herokuapp.com/ </a>
+    <p style="font-weight:bold"><span style="font-size: 13pt;">구동 시간이 조금 걸립니다. 조금만 참고 기다려주세요 :) 구동 후 F5 키 한 번 누르기!</span></p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <div class="post_head" style="margin-left: 20px; line-height: 1.5;"><span style="font-size: 36px; color: #2c82c9;"><strong>Summary</strong></span></div>
 <section class="post_info">
