@@ -10,6 +10,7 @@ phone: +82 10 5061 5637
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
+- {name: Intro, link: '#about-part'}
 - {name: Activities, link: '#activities-part'}
 - {name: Skills, link: '#skills-part'}
 - {name: Education, link: '#education-part'}
@@ -38,7 +39,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> YeLim <br> Data Scientist
+  hero-title: Hi! I’m <br> YeLim <br> Data Analyst
 
 # social:
 # - {icon: "ti-facebook", link: "#"}
@@ -52,10 +53,12 @@ hero:
 
 # About Section
 blurb:
-  자소서 내용 넣기
+  안녕하세요, 안예림입니다.  <br>
+  다양한 데이터를 다각면에서 다루는 것을 좋아합니다. <br>
+  필요한 데이터를 뽑아내 여러 사람들과 활발하게 의사소통하는 것을 좋아합니다. <br>
 
-blurb-btn-link: '/about'
-blurb-btn-name: learn more
+# blurb-btn-link: '/about'
+# blurb-btn-name: learn more
 
 
 # About Page

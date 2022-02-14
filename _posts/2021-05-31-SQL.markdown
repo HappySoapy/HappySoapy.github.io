@@ -5,6 +5,9 @@ date:   2021-05-31
 image:  /assets/images/post4/north_wind_analysis.jpg
 author: yelim
 ---
+<p>&nbsp;</p>
+<p><span style="font-size: 15pt; color: #e03e2d;">구글 애널리틱스, Tableau 등을 사용해서 코호트 분석을 하는 방법도 있으나 SQL 코드를 직접 짜서 시도해 보고 싶었다.</span></p>
+<p>North Wind Traders는 한 테이블 당 존재하는 행은 적으나 테이블 간의 연결 및 ERD를 이해하기 좋은 데이터이기에 선택했다.</p>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -19,22 +22,37 @@ author: yelim
 <p>&nbsp;</p>
 <p><span style="font-size: 20pt;"><strong><span style="color: #236fa1;">Cohort Analysis</span></strong></span></p>
 <p style="text-align:center;"><img src="/assets/images/post4/eda7.png" alt="result" style="width:60%;" /></p>
+
+
+
+<p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 40px;">&nbsp;</p>
 <p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 40px;"><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: black;">첫 달 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">구매고객의</span><span style="font-family: '에스코어 드림 3 Light'; color: black;"> </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">재구매율에</span><span style="font-family: '에스코어 드림 3 Light'; color: black;"> 대한 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">코호트</span><span style="font-family: '에스코어 드림 3 Light'; color: black;"> 분석</span></span></p>
 <ul>
 <li style="list-style-type: none;">
 <ul>
 <li><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;">보통 </span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;">코호트</span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;"> 분석을 할 때 첫 </span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;">구매월을</span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;"> </span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;">0</span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;">으로 표시하지만</span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;">,</span><span style="font-family: '에스코어 드림 3 Light'; color: #0d0d0d;"> </span><span style="font-family: '에스코어 드림 3 Light'; color: red;">Redash</span><span style="font-family: '에스코어 드림 3 Light'; color: red;">의 시각화 툴을 사용했을 때에는 첫 </span><span style="font-family: '에스코어 드림 3 Light'; color: red;">구매월을</span><span style="font-family: '에스코어 드림 3 Light'; color: red;"> </span><span style="font-family: '에스코어 드림 3 Light'; color: red;">1</span><span style="font-family: '에스코어 드림 3 Light'; color: red;">로 </span><span style="font-family: '에스코어 드림 3 Light'; color: red;">표시함</span><span style="font-family: '에스코어 드림 3 Light'; color: red;">.</span></span></li>
-<li><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: black;">2006</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">년 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">5</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월과 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">6</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월에 첫 구매한 고객이 없어서</span><span style="font-family: '에스코어 드림 3 Light'; color: black;"> </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">즉</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">, 2006</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">년 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">4</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월에 첫 구매한 고객이 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">5</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">, 6</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월에 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">재구매한</span><span style="font-family: '에스코어 드림 3 Light'; color: black;"> 고객은 있어도 첫 구매한 고객이 없기 때문에 위 표의 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">Time </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">열에 표시되지 않음.</span></span></li>
+<li><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: black;">2006</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">년 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">5</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월과 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">6</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월에 첫 구매한 고객이 없어서</span><span style="font-family: '에스코어 드림 3 Light'; color: black;"> </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">즉</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">, 2006</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">년 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">4</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월에 첫 구매한 고객이 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">5</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">, 6</span><span style="font-family: '에스코어 드림 3 Light'; color: black;">월에 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">재구매한</span><span style="font-family: '에스코어 드림 3 Light'; color: black;"> 고객은 있어도 첫 구매한 고객이 없기 때문에 위 표의 </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">Time </span><span style="font-family: '에스코어 드림 3 Light'; color: black;">열에 표시되지 않은 것으로 보임.</span></span></li>
 </ul>
 </li>
 </ul>
-<p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 40px;"><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">&gt;&gt; </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">첫 </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">구매월</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;"> 바로 다음 월에는 약 </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">85%</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">의 고객이 </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">재구매</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;"> </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">하지 않음</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">.</span></span></p>
-<p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 40px;"><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">&gt;&gt; </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">첫 구매월로부터 두 번째 월에는</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">,</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;"> 첫 구매 월의 약 </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">81%</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">의 고객이&nbsp; </span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">재구매함</span><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">.</span></span></p>
+<p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 40px;"><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">&gt; 결과 분석</span></span></p>
+<p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 80px;"><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">1. 첫 구매 후 2개월 뒤 재구매율이 높음. 이익을 더 창출하고자 한다면 1개월로 줄이도록 마케팅하는 것이 좋을 것으로 보임.</span></span></p>
+<p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 80px;"><span style="font-size: 12pt;"><span style="font-family: '에스코어 드림 3 Light'; color: #0070c0;">2. 첫 구매 후 시간이 지날 수록 재구매율이 낮아지고 있는데, 이를 보완하기 위한 타임 세일이나 컴백쿠폰 등의 마케팅이 필요한 것으로 보임.</span></span></p>
+<p style="line-height: 14pt; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: keep-all; padding-left: 40px;">&nbsp;</p>
+
+
+
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p style="padding-left: 40px;">&nbsp;</p>
 <p><strong><span style="font-size: 20pt; color: #236fa1;">Dash Board</span></strong></p>
 <p style="text-align:center;"><img src="/assets/images/post4/dashboard.png" alt="result" style="width:90%;" /></p>
 <p>&nbsp;</p>
-<p><span style="color: #236fa1;"><strong><span style="font-size: 20pt;">Codes for Cohort Analysis</span></strong></span></p>
+<p>&nbsp;</p>
+<p><span style="c
+olor: #236fa1;"><strong><span style="font-size: 20pt;">Codes for Cohort Analysis</span></strong></span></p>
 <table style="border-collapse: collapse; width: 88.9791%; height: 593px;" border="1">
 <tbody>
 <tr>
