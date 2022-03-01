@@ -11,9 +11,10 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 
 menu:
 - {name: Intro, link: '#about-part'}
-- {name: Activities, link: '#activities-part'}
+- {name: Awards & Activities, link: '#awards-part'}
+# - {name: Activities, link: '#activities-part'}
 - {name: Skills, link: '#skills-part'}
-- {name: Education, link: '#education-part'}
+# - {name: Education, link: '#education-part'}
 - {name: Projects, link: '/blog'}
 
 
@@ -78,20 +79,51 @@ work-process:
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
-# # My Team Section
-# team:
-#   - title : "Jack Schenziwe"
-#     image : "assets/images/team/member-1.png"
-#     designation : "Project Manager"
-    
-#   - title : "Julias Carlie"
-#     image : "assets/images/team/member-2.png"
-#     designation : "Web Developer"
-    
-#   - title : "John Doe"
-#     image : "assets/images/team/member-3.png"
-#     designation : "Designer"
+# My Team Section
+team:
+  - title : "GAIQ 자격증"
+    image : "assets/images/team/gaiq.png"
+    designation : "2022년 2월 21일 취득"
 
+  - title : "데이터 직무부트캠프 수료증"
+    image : "assets/images/team/comento.png"
+    designation : "2021년 6월 20일 취득"
+
+  - title : "출원중인 특허(2020년 12월 31일 출원 등록)"
+    image : "assets/images/team/patent.png"
+    designation : "특허 출원 시 초안으로 작성한 첫페이지 입니다. 10-2020-0188682(DSA 첩근코드 3740)"  
+
+  - title : "빅리더 AI 아카데미 프로젝트 경진대회 대상 수상"
+    image : "assets/images/team/won.jpg"
+    designation : "PM 역할"
+
+  - title : "2020 데이터 청년 캠퍼스 멘토 활동"
+    image : "assets/images/team/mento_final.png"
+    designation : "멘토 활동을 하며 보충 스터디 진행"    
+
+  - title : "2019 데이터 청년 캠퍼스 수료"
+    image : "assets/images/team/2019data.jpg"
+    designation : "PAPA project"
+
+  - title : "2019 데이터 청년 캠퍼스 PAPA project 팀원들과 수상 장면"
+    image : "assets/images/team/papa.png"
+    designation : "최우수상 수상"
+    
+  - title : "ADsP 자격증"
+    image : "assets/images/team/ADsP.jpg"
+    designation : "2019년 12월 24일 취득"
+
+  - title : "교내 비교과 과목 빅데이터 기초 수료증"
+    image : "assets/images/team/DSACcom.jpg"
+    # designation : "111"
+
+  - title : "DSAC 자격증"
+    image : "assets/images/team/DSACcer.jpg"
+    designation : "2018년 12월 21일 취득"
+
+  - title : "컴퓨터 활용능력 1급 자격증"
+    image : "assets/images/team/comhwal.jpg"
+    designation : "2018년 8월 3일 취득"
 
 #-------------------------------
 # Skills Section
@@ -108,12 +140,12 @@ skills:
 
 
 #-------------------------------
-# Exprerience Section
+# # Exprerience Section
 
-experience-title: Activities
-experience:
-- {name: 특허 출원 중, icon: 'icon-3.png', date: '2020.12.31 - Present', organization: '10-2020-0188682(DSA 첩근코드 3740)'}
-- {name: 2020 Data Youth Campus Mento, icon: 'icon-1.png', date: '2020.07 - 2020.09', organization: 'KData'}
+# experience-title: Activities
+# experience:
+# - {name: 특허 출원 중, icon: 'icon-3.png', date: '2020.12.31 - Present', organization: '10-2020-0188682(DSA 첩근코드 3740)'}
+# - {name: 2020 Data Youth Campus Mento, icon: 'icon-1.png', date: '2020.07 - 2020.09', organization: 'KData'}
 
 
 
@@ -128,8 +160,6 @@ education:
 - {name: Applied Plotting Certificate(93.33%), Charting & Data Representation in Python Certificate(93.33%), date: '2021.05', organization: 'Coursera(Michigan Univ.)'}
 - {name: Introduction to Data Science in Python Certificate(94%), date: '2021.05', organization: 'Coursera(Michigan Univ.)'}
 - {name: Deep Learning for Business Certificate(90.28%), date: '2021.04', organization: 'Coursera(Yonsei Univ.)'}
-- {name: Bachelors in Mathematics, date: '2020.08', organization: 'Changwon University'}
-- {name: Bachelors in Statistics, date: '2020.08', organization: 'Changwon University'}
 - {name: 2019 Data Youth Campus Certificate, date: '2019.09', organization: 'KData'}
 
 # #-------------------------------
