@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 농산물 원산지 표시 단속 추천 서비스
-date: 2020-06-30
+date: 2020-03-04
 image: /assets/images/blog/vegetables.jpg
 author: yelim
 ---
@@ -42,7 +42,7 @@ author: yelim
 <p>&nbsp;</p>
 <div class="post_head" style="margin-left: 20px; line-height: 1.5;"><span style="font-size: 20pt; color: #2c82c9;"><strong>Introduce</strong></span></div>
 <section class="post_info">
-<p style="padding-left: 40px;"><strong><span>Period of Project</span></strong><span>&nbsp;: 2020.06 - 2020.11</span></p>
+<p style="padding-left: 40px;"><strong><span>Period of Project</span></strong><span>&nbsp;: 2020.03 - 2020.11</span></p>
 <p style="line-height: 1; padding-left: 40px;"><span><strong>Subject</strong> : 원산지 표시 단속에서 단속될 확률이 높은 업체를 추천</span></p>
 <p style="line-height: 1; padding-left: 40px;"><span><strong>Role</strong> : PM</span></p>
 <p style="line-height: 1; padding-left: 40px;"><span><strong>ML</strong> : Random Forest, Ada Boost, XG Boost, Light GBM</span></p>
